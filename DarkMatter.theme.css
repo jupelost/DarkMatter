@@ -11,11 +11,36 @@
 /* Variables */
 :root {
     --avatar-size: 32px;
-    --background-image: url('');
-    --home-image: url('');
+    --background-image: url('https://i.imgur.com/7SbtKvw.png');
+    --home-image: url('https://i.imgur.com/233d55Y.gif');
     --background-solid: #161921;
     --background-solid-dark: #101218;
     --background-solid-darker: #0c0e12;
     --accent: 37, 172, 232;
     --accent-alt: 29, 101, 134;
+}
+
+
+.app-2CXKsg, .bg-1QIAus { /* DMs bg overrides */
+
+	background: transparent !important;
+
+}
+
+.container-1eFtFS, .base-2jDfDU, .content-1SgpWY, .chat-2ZfjoI, .div[class^='chat'] { /* Channel bg overrides */
+
+	background: transparent !important;
+
+}
+
+.profilePanel-2PWEok, .userPanelOuter-xc-WYi, .userProfileOuterUnthemed-2b2rsv, .profileColors-3Y0XaR { /* Partially-opaque right sidebar bg */
+
+	background: rgba(0, 0, 0, .25);
+
+}
+
+.userPanelInner-1UAR7g, .userProfileInner-3F03PX, .userPanelInnerThemed-2xZFjl, .none-1rXy4P { /* Right sidebar overrides */
+
+	background: transparent !important;
+
 }
